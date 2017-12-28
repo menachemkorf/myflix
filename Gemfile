@@ -11,6 +11,8 @@ gem 'uglifier'
 gem 'jquery-rails'
 gem 'pg'
 gem 'bcrypt-ruby', '~>3.1.2'
+gem 'fabrication', '2.15'
+gem 'faker'
 
 group :development do
   gem 'thin'

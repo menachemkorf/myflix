@@ -16,6 +16,6 @@ class ApplicationController < ActionController::Base
 
   def deny_access
     flash[:error] = 'You canot do that.'
-    redirect_to root_path
+    redirect_to sign_in_path
   end
 end
